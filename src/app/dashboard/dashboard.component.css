@@ -1,0 +1,99 @@
+
+.rectangle{
+	width:300px;
+	height:200px;
+    background : #F4A460;
+    display: inline-block;
+    margin :20px;
+    align-items: center;
+}
+
+.rectangle2{
+	width:300px;
+	height:200px;
+    background : #90EE90;
+    display: inline-block;
+    margin : 20px;
+    align-items: center;
+}
+
+.rectangle3{
+	width:300px;
+	height:200px;
+    background : #BA55D3;
+    display: inline-block;
+    margin : 20px;
+    align-items: center;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+ a{
+     color: white;
+     font-size: 15px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+
+
+  .content-table{
+      display: inline-flex;
+      margin-right: 20px ;
+      
+  }
+
+.formation td{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+   
+}
+
+.formation tr{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #B0C4DE;
+    
+}
+
+:host {
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    padding: 10px;
+  }
+  header {
+    color: #944848;
+    padding: 10px;
+  }
+  header > h1 {
+    font-size: 2em;
+  }
+  section {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+  }
+  section > app-session-item {
+    margin: 10px;
+  }
+  footer {
+    text-align: right;
+  }
+  footer .icon {
+    width: 64px;
+    height: 64px;
+    margin: 15px;
+  }
+  
